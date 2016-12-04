@@ -1,3 +1,3 @@
 FROM jupyterhub/jupyterhub:latest
 
-RUN pip3 install oauthenticator
+RUN /opt/conda/bin/pip install oauthenticator
